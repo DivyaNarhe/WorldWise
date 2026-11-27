@@ -2,6 +2,8 @@ import styles from './CityList.module.css'
 import CityItem from "../components/CityItem"
 import Spinner from "../components/Spinner"
 import { useCities } from '../contexts/CitiesContext';
+import Message from "../components/Message"
+
 
 function CityList() {
 
